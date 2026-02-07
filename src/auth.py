@@ -11,8 +11,8 @@ class UserAuth:
     def login(self, username, password):
         if username not in self.users:
             return False
-            hashed =hashlib.sha256(password.encode()).hexdigest()
-            return self.users[username] == hashed
+        hashed =hashlib.sha256(password.encode()).hexdigest()
+        return self.users[username] == hashed
 if __name__ == "__main__":
     auth =UserAuth()
     auth.register("alice", "password123")
