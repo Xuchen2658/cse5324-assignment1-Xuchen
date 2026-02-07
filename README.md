@@ -25,7 +25,8 @@ This repository demonstrates fundamental Git operations including branching, mer
 \## Git Commands Used 
 
 (This section will be updated as you progress through the assignment)
-## Features
-- Calculator with basic operations
-- User authentication system
 
+## Project Features
+- Mathematical calculator module with basic operations
+- Secure user authentication and login system 
+- Application logging functionality
